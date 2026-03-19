@@ -1,31 +1,298 @@
-News ID,Committee ID,Committee Name,Heading,Full Text Word Count,Full Text Readability,Date Published
-212572,24,Defence Committee,Defence Committee statement: developments in the Middle East,194,18.58,2026-03-10T17:02:45+00:00
-211611,24,Defence Committee,Defence and Public Accounts Committee Chairs: delay to DIP publication “risks sending damaging signals to adversaries”,171,13.79,2026-01-28T14:54:31+00:00
-211600,24,Defence Committee,New inquiry: Defence in the High North,607,12.63,2026-01-28T09:11:55+00:00
-211554,24,Defence Committee,Defence Committee Chair responds to President Trump’s “belittlement of the contribution of the UK and other NATO allies”,126,14.57,2026-01-23T17:34:57+00:00
-211553,24,Defence Committee,Defence Secretary to face Committee questions,232,16.28,2026-01-23T17:07:19+00:00
-211209,24,Defence Committee,Defence Committee statement: Ukraine,218,13.6,2026-01-08T09:30:59+00:00
-210866,24,Defence Committee,Defence Committee Chair responds to death of UK armed forces member in Ukraine,112,11.93,2025-12-10T10:42:48+00:00
-210682,24,Defence Committee,Defence Committee publishes further evidence related to Afghan Data Breach and Resettlement Schemes,136,12.06,2025-11-28T11:17:48+00:00
-210605,24,Defence Committee,Defence Committee statement: Ukraine,256,15.67,2025-11-24T12:20:17+00:00
-210521,24,Defence Committee,Defence Committee: “questions raised about UK’s fundamental ability to defend itself”,890,14.77,2025-11-19T11:33:37+00:00
-209953,24,Defence Committee,"Journalists from the Times, the Mail and the Independent to give opening evidence on Afghan data breach and super-injunction",160,15.01,2025-10-30T12:33:39+00:00
-209956,24,Defence Committee,Defence Committee announces next steps in Afghan data breach inquiry,201,12.91,2025-10-29T12:00:00+00:00
-209358,24,Defence Committee,"Defence Committee Chair: Russian incursions “designed to bully, intimidate and divide NATO”",79,Under 100 words (79),2025-09-19T20:03:06+00:00
-209182,24,Defence Committee,Defence Committee Chair responds to the Defence Industrial Strategy,129,11.12,2025-09-08T16:42:03+00:00
-209122,24,Defence Committee,Defence Committee launches broad inquiry into MOD Afghan data breach and resettlement schemes,911,12.01,2025-09-03T09:12:32+00:00
-212652,62,Justice Committee,"Planning reforms have “numerous safeguards”, Government insists",650,17.51,2026-03-13T00:15:01+00:00
-212267,62,Justice Committee,"Fairness must drive Seventh Carbon Budget plans, MPs tell Government",963,16.13,2026-03-04T00:15:00+00:00
-212132,62,Justice Committee,MPs to examine data centres climate impact as Miliband says future demand “inherently uncertain”,797,14.27,2026-02-27T00:15:00+00:00
-211788,62,Justice Committee,Environment Secretary responds to MPs on flood protection plans,136,17.42,2026-02-05T16:20:44+00:00
-211431,62,Justice Committee,EAC Chair responds to Water White Paper,197,12.52,2026-01-20T16:00:34+00:00
-211420,62,Justice Committee,MPs to investigate air pollution in next Committee inquiry,369,13.59,2026-01-20T12:49:55+00:00
-211277,62,Justice Committee,“Concrete results” needed on environmental commitments – EAC Chair responds to latest Office for Environmental Protection report,229,14.41,2026-01-13T09:28:36+00:00
-211101,62,Justice Committee,Government makes no commitment to national flooding helpline in response to EAC report,308,13.22,2025-12-23T00:15:00+00:00
-211073,62,Justice Committee,Air pollution selected for next committee inquiry following public pitches,478,15.36,2025-12-19T09:57:38+00:00
-210754,62,Justice Committee,EAC Chair responds to new Environmental Improvement Plan,184,12.74,2025-12-02T11:59:15+00:00
-210639,62,Justice Committee,"Budget 2025: EAC Chair responds on energy bills, planning investment",189,14.73,2025-11-26T15:45:07+00:00
-210464,62,Justice Committee,"Nature not a “blocker” to housing delivery, MPs find in new report",965,15.21,2025-11-16T09:37:21+00:00
-210043,62,Justice Committee,COP30: Committee pushes government on deforestation and climate finance commitments,257,14.31,2025-11-03T16:20:56+00:00
-209952,62,Justice Committee,EAC Chair responds to publication of Government’s new Carbon Budget Delivery Plan,207,15.42,2025-10-30T10:14:56+00:00
-209804,62,Justice Committee,Airport expansion could put net zero in “serious jeopardy” without further safeguards,785,15.19,2025-10-23T23:05:03+00:00
+News ID,Committee ID,Committee Name,Heading,Heading Word Count,Teaser Word Count,Full Text Word Count,Full Text Readability,Date Published
+212572,24,Defence Committee,Defence Committee statement: developments in the Middle East,8,8,194,18.58,2026-03-10T17:02:45+00:00
+211611,24,Defence Committee,Defence and Public Accounts Committee Chairs: delay to DIP publication “risks sending damaging signals to adversaries”,16,48,171,13.79,2026-01-28T14:54:31+00:00
+211600,24,Defence Committee,New inquiry: Defence in the High North,7,38,607,12.63,2026-01-28T09:11:55+00:00
+211554,24,Defence Committee,Defence Committee Chair responds to President Trump’s “belittlement of the contribution of the UK and other NATO allies”,18,25,126,14.57,2026-01-23T17:34:57+00:00
+211553,24,Defence Committee,Defence Secretary to face Committee questions,6,21,232,16.28,2026-01-23T17:07:19+00:00
+211209,24,Defence Committee,Defence Committee statement: Ukraine,4,4,218,13.6,2026-01-08T09:30:59+00:00
+210866,24,Defence Committee,Defence Committee Chair responds to death of UK armed forces member in Ukraine,13,13,112,11.93,2025-12-10T10:42:48+00:00
+210682,24,Defence Committee,Defence Committee publishes further evidence related to Afghan Data Breach and Resettlement Schemes,13,13,136,12.06,2025-11-28T11:17:48+00:00
+210605,24,Defence Committee,Defence Committee statement: Ukraine,4,4,256,15.67,2025-11-24T12:20:17+00:00
+210521,24,Defence Committee,Defence Committee: “questions raised about UK’s fundamental ability to defend itself”,11,47,890,14.77,2025-11-19T11:33:37+00:00
+209953,24,Defence Committee,"Journalists from the Times, the Mail and the Independent to give opening evidence on Afghan data breach and super-injunction",19,19,160,15.01,2025-10-30T12:33:39+00:00
+209956,24,Defence Committee,Defence Committee announces next steps in Afghan data breach inquiry,10,10,201,12.91,2025-10-29T12:00:00+00:00
+209358,24,Defence Committee,"Defence Committee Chair: Russian incursions “designed to bully, intimidate and divide NATO”",12,16,79,0.0,2025-09-19T20:03:06+00:00
+209182,24,Defence Committee,Defence Committee Chair responds to the Defence Industrial Strategy,9,7,129,11.12,2025-09-08T16:42:03+00:00
+209122,24,Defence Committee,Defence Committee launches broad inquiry into MOD Afghan data breach and resettlement schemes,13,16,911,12.01,2025-09-03T09:12:32+00:00
+212652,62,Justice Committee,"Planning reforms have “numerous safeguards”, Government insists",7,7,650,17.51,2026-03-13T00:15:01+00:00
+212267,62,Justice Committee,"Fairness must drive Seventh Carbon Budget plans, MPs tell Government",10,33,963,16.13,2026-03-04T00:15:00+00:00
+212132,62,Justice Committee,MPs to examine data centres climate impact as Miliband says future demand “inherently uncertain”,14,17,797,14.27,2026-02-27T00:15:00+00:00
+211788,62,Justice Committee,Environment Secretary responds to MPs on flood protection plans,9,28,136,17.42,2026-02-05T16:20:44+00:00
+211431,62,Justice Committee,EAC Chair responds to Water White Paper,7,7,197,12.52,2026-01-20T16:00:34+00:00
+211420,62,Justice Committee,MPs to investigate air pollution in next Committee inquiry,9,20,369,13.59,2026-01-20T12:49:55+00:00
+211277,62,Justice Committee,“Concrete results” needed on environmental commitments – EAC Chair responds to latest Office for Environmental Protection report,17,28,229,14.41,2026-01-13T09:28:36+00:00
+211101,62,Justice Committee,Government makes no commitment to national flooding helpline in response to EAC report,13,18,308,13.22,2025-12-23T00:15:00+00:00
+211073,62,Justice Committee,Air pollution selected for next committee inquiry following public pitches,10,23,478,15.36,2025-12-19T09:57:38+00:00
+210754,62,Justice Committee,EAC Chair responds to new Environmental Improvement Plan,8,8,184,12.74,2025-12-02T11:59:15+00:00
+210639,62,Justice Committee,"Budget 2025: EAC Chair responds on energy bills, planning investment",10,10,189,14.73,2025-11-26T15:45:07+00:00
+210464,62,Justice Committee,"Nature not a “blocker” to housing delivery, MPs find in new report",12,26,965,15.21,2025-11-16T09:37:21+00:00
+210043,62,Justice Committee,COP30: Committee pushes government on deforestation and climate finance commitments,10,33,257,14.31,2025-11-03T16:20:56+00:00
+209952,62,Justice Committee,EAC Chair responds to publication of Government’s new Carbon Budget Delivery Plan,12,12,207,15.42,2025-10-30T10:14:56+00:00
+209804,62,Justice Committee,Airport expansion could put net zero in “serious jeopardy” without further safeguards,12,24,785,15.19,2025-10-23T23:05:03+00:00
+212661,365,Business and Trade Committee,Post Office Horizon IT scandal: “serious structural failings persist” in redress,11,39,674,12.85,2026-03-13T00:01:00+00:00
+212558,365,Business and Trade Committee,Royal Mail’s reliance on headline letter delivery figures can’t hide service failures as 219 million letters arrive late,18,36,531,15.44,2026-03-10T10:22:03+00:00
+212305,365,Business and Trade Committee,"New BTC inquiry: China and the UK Economy - what is the prize, and what is the price?",18,25,567,11.98,2026-03-05T10:23:36+00:00
+212195,365,Business and Trade Committee,Committee concerns on role of CMA Chair require risk mitigations from ministers – Pre-Appointment Report,15,25,628,18.5,2026-02-26T15:42:25+00:00
+211835,365,Business and Trade Committee,"Small businesses facing pressures comparable to the pandemic, Business and Trade Committee finds",13,28,1004,14.84,2026-02-11T00:01:04+00:00
+211746,365,Business and Trade Committee,BTC: UK economic security regime is not fit for the future; Government’s response inadequate in face of the threat,19,9,473,14.66,2026-02-04T21:30:10+00:00
+211711,365,Business and Trade Committee,Business and Trade Committee Sets Seven Priorities for UK Economic Revival,11,12,562,14.56,2026-02-03T09:49:54+00:00
+211432,365,Business and Trade Committee,UK – India Comprehensive Economic and Trade Agreement: Committee warns Government staff cuts put £billions in tariff savings at risk,20,41,795,15.53,2026-01-21T00:01:02+00:00
+211170,365,Business and Trade Committee,"When will there be justice for the sub-Postmasters?  Fujitsu, CCRC, DBT and MoJ among witnesses in BTC’s first evidence hearing of the New Year",24,39,570,16.75,2026-01-06T16:19:54+00:00
+210590,365,Business and Trade Committee,BTC: UK’s economic security regime “not fit for the future” – and risks becoming weak point in the West,19,26,818,20.67,2025-11-24T00:01:00+00:00
+209415,365,Business and Trade Committee,What’s really behind the UK’s growth problem?  Help the BTC help Government to fix it,15,14,829,13.38,2025-09-29T13:22:06+00:00
+209278,365,Business and Trade Committee,"As Trump visits the UK for an unprecedented second State Visit, it’s time for “maximum pressure” to secure trade and technology alliance",22,50,785,15.07,2025-09-13T23:05:00+00:00
+208817,365,Business and Trade Committee,“No tweaks at the margins. Britain needs a new architecture of investment for a new age of risk”  - BTC launches new inquiry on financing the real economy,28,42,582,11.02,2025-08-03T23:01:00+00:00
+208242,365,Business and Trade Committee,"Committee welcomes the Horizon IT Inquiry Report, urges Government to “close painful chapter of history” and speed up justice for victims of Post Office Horizon scandal",26,64,424,13.79,2025-07-08T16:17:03+00:00
+208076,365,Business and Trade Committee,Britain Must Seize the Asia-Pacific Moment,6,31,690,7.04,2025-06-30T15:47:21+00:00
+212728,378,"Culture, Media and Sport Committee",Copyright and AI: Comment from CMS Committee Chair Dame Caroline Dinenage MP,12,14,228,14.67,2026-03-18T16:41:56+00:00
+212648,378,"Culture, Media and Sport Committee","Charter Review: MPs launch inquiry on future purpose, governance and funding of BBC",13,26,280,15.75,2026-03-12T11:49:14+00:00
+212372,378,"Culture, Media and Sport Committee",BBC’s coverage of the BAFTAs: CMS Committee publishes response from Director General Tim Davie,14,42,101,16.93,2026-03-06T12:54:07+00:00
+212206,378,"Culture, Media and Sport Committee",MPs write to Government over cultural venue restoration funding deficit,10,34,161,18.49,2026-02-27T10:26:49+00:00
+212135,378,"Culture, Media and Sport Committee",CMS Committee presses Government on support for live comedy sector,10,27,170,18.37,2026-02-26T14:36:50+00:00
+212065,378,"Culture, Media and Sport Committee",BBC’s coverage of the BAFTAs: CMS Committee writes to Director General Tim Davie,13,35,143,16.18,2026-02-25T15:30:49+00:00
+211511,378,"Culture, Media and Sport Committee",Arts funding announcement: Comment from CMS Committee Chair Dame Caroline Dinenage MP,12,20,165,17.34,2026-01-22T15:33:02+00:00
+211359,378,"Culture, Media and Sport Committee",Deaflympics Funding: Committee Chair welcomes commitments from Govt to progress funding talks,12,38,268,14.41,2026-01-15T16:40:05+00:00
+211255,378,"Culture, Media and Sport Committee",AI generated sexualised images on X: CMS Committee presses Ofcom on enforcement of Online Safety Act,16,42,152,18.12,2026-01-09T17:02:33+00:00
+211232,378,"Culture, Media and Sport Committee",Budget business rate reform: MPs write to Chancellor over impact on hospitality and entertainment venues,15,38,227,19.73,2026-01-08T17:52:29+00:00
+211080,378,"Culture, Media and Sport Committee",Chair comment: Proposed changes to BBC Editorial Guidelines and Standards Committee,11,19,171,18.15,2025-12-19T16:59:36+00:00
+211065,378,"Culture, Media and Sport Committee",MPs call for public funding parity for Deaflympians following Tokyo success,11,30,289,18.84,2025-12-18T14:40:20+00:00
+211004,378,"Culture, Media and Sport Committee",Vacancy: Specialist Adviser to the CMS Committee,7,26,533,15.64,2025-12-17T15:42:23+00:00
+210852,378,"Culture, Media and Sport Committee",MPs publish BBC response to evidence session follow-up questions,9,29,183,15.02,2025-12-09T11:13:42+00:00
+210739,378,"Culture, Media and Sport Committee",MPs write to BBC Chair Samir Shah with evidence session follow-up questions,12,23,112,14.41,2025-12-01T16:55:26+00:00
+212112,203,Education Committee,AI and EdTech: MPs launch new inquiry examining technology’s role in education,12,19,476,15.5,2026-02-26T10:16:09+00:00
+212030,203,Education Committee,SEND reform: Education Committee Chair responds to Schools White Paper,10,15,393,13.72,2026-02-23T12:50:43+00:00
+211864,203,Education Committee,Committees to examine children and young people’s mental health in new inquiry,12,21,661,14.63,2026-02-13T09:19:28+00:00
+211832,203,Education Committee,"England’s fragile school estate needs permanent solutions despite progress on RAAC, MPs say",13,21,538,14.93,2026-02-11T00:01:00+00:00
+211612,203,Education Committee,Committees launch joint inquiry on Government’s Child Poverty Strategy,9,30,1044,12.81,2026-01-29T00:01:03+00:00
+211282,203,Education Committee,"MPs ‘deeply alarmed’ by Grok AI images, says Education Committee Chair",11,37,305,15.57,2026-01-13T13:56:08+00:00
+211006,203,Education Committee,Safeguarding in early years sector: Education Committee launches new call for evidence,12,29,484,14.14,2025-12-17T14:35:15+00:00
+210911,203,Education Committee,Education Committee publishes Govt’s response to landmark SEND report,9,15,350,16.71,2025-12-11T11:36:05+00:00
+210868,203,Education Committee,Can a university still function if it becomes insolvent? MPs write to Minister,13,31,94,0.0,2025-12-10T11:16:05+00:00
+210851,203,Education Committee,Education Committee publishes Govt’s response to FE and Skills report,10,22,264,17.53,2025-12-09T11:08:29+00:00
+210587,203,Education Committee,Reading for pleasure – MPs launch new inquiry to explore how to keep joy of reading alive,17,32,930,11.79,2025-11-23T00:01:00+00:00
+210077,203,Education Committee,Education Committee comments on Curriculum and Assessment Review and Govt’s response,11,32,413,18.42,2025-11-05T09:30:00+00:00
+209665,203,Education Committee,Govt urged not to cut Universal Credit for young care leavers,11,31,803,17.2,2025-10-16T23:05:00+00:00
+209364,203,Education Committee,"Power growth and boost young people’s life chances with investment and reforms to further education, MPs tell Govt",18,32,1691,14.87,2025-09-22T23:05:01+00:00
+209313,203,Education Committee,Solving the SEND crisis: report calls for culture shift and funding to make mainstream education genuinely inclusive,17,30,2799,15.51,2025-09-17T23:05:00+00:00
+212725,52,"Environment, Food and Rural Affairs Committee",Land use and nature inquiry launched by EFRA Committee,9,23,382,15.99,2026-03-18T16:22:58+00:00
+212362,52,"Environment, Food and Rural Affairs Committee",Does your water company use bailiffs to recover debt? EFRA Committee reveals extent of debt collection practices across the industry,20,29,624,12.02,2026-03-06T10:40:52+00:00
+212287,52,"Environment, Food and Rural Affairs Committee",‘Drive-bys’ of disease-risk illegal meat and plant products avoiding border checks revealed in new data,15,38,694,12.1,2026-03-04T10:01:21+00:00
+211732,52,"Environment, Food and Rural Affairs Committee",Govt must seek carve outs and implementation period in EU trade deal – EFRA Committee report,16,33,1330,15.63,2026-02-05T00:15:01+00:00
+211278,52,"Environment, Food and Rural Affairs Committee",South East Water: Committee to recall senior leadership,8,12,351,14.14,2026-01-13T12:22:58+00:00
+211110,52,"Environment, Food and Rural Affairs Committee",EFRA Chair welcomes Government change of heart but warns lessons must be heeded by ministers,15,62,330,14.67,2025-12-23T14:54:16+00:00
+210998,52,"Environment, Food and Rural Affairs Committee",EFRA Chair comments on Thames Water decision to maintain its ‘pause’ on management retention payments,15,27,171,13.94,2025-12-16T14:32:00+00:00
+210777,52,"Environment, Food and Rural Affairs Committee",EFRA Chair questions loss of water access for Tunbridge Wells and surrounding areas,13,13,142,15.72,2025-12-03T14:59:33+00:00
+210641,52,"Environment, Food and Rural Affairs Committee",Bailiffs and bonuses: EFRA Committee publishes correspondence,7,23,229,14.38,2025-11-27T09:04:24+00:00
+210520,52,"Environment, Food and Rural Affairs Committee",DEFRA learns lessons from Committee as UK transitions away from Border Trade Operating Model,14,40,378,16.23,2025-11-19T11:19:26+00:00
+210338,52,"Environment, Food and Rural Affairs Committee","Biosecurity threats at Britain’s borders cannot wait for Government to conclude SPS negotiations, warns EFRA Committee",16,16,435,16.25,2025-11-11T14:38:34+00:00
+209282,52,"Environment, Food and Rural Affairs Committee",EFRA finds commercial animal and plant imports system is ‘inadequate’ as banned products pass border unchecked,16,14,856,17.98,2025-09-15T08:10:09+00:00
+209266,52,"Environment, Food and Rural Affairs Committee",EFRA launches climate and weather resilience inquiry with call for evidence on coastal erosion and landslips,16,8,544,15.97,2025-09-12T12:55:34+00:00
+209168,52,"Environment, Food and Rural Affairs Committee","Meat smuggling crisis risks major disease outbreak, warn MPs",9,34,833,16.73,2025-09-08T08:24:20+00:00
+208765,52,"Environment, Food and Rural Affairs Committee",EFRA Committee agrees plans for the coming months,8,29,380,12.43,2025-07-29T09:09:18+00:00
+212346,78,Foreign Affairs Committee,"X, Meta and TikTok face questions on foreign disinformation from Foreign Affairs Committee",13,27,120,23.31,2026-03-05T12:18:58+00:00
+212274,78,Foreign Affairs Committee,"UK-EU reset lacks “direction, definition and drive”",7,39,874,14.01,2026-03-04T00:15:01+00:00
+211812,78,Foreign Affairs Committee,"Vitaliy Klitschko, Mayor of Kyiv, to give evidence virtually to the Foreign Affairs Committee",14,14,183,12.06,2026-02-09T10:57:20+00:00
+211321,78,Foreign Affairs Committee,"Foreign Affairs calls X, Meta and TikTok to give evidence on foreign disinformation threat",14,31,288,13.21,2026-01-14T17:08:41+00:00
+211129,78,Foreign Affairs Committee,Foreign Affairs Committee Chair responds to Foreign Secretary letter on Alaa Abd El Fattah and consular case due diligence,19,48,188,17.49,2025-12-31T16:45:18+00:00
+209972,78,Foreign Affairs Committee,Mandelson’s appointment: Cabinet Secretary to give evidence,7,7,143,15.57,2025-10-30T15:43:23+00:00
+209951,78,Foreign Affairs Committee,Government agrees to majority of FAC recommendations,7,15,269,12.1,2025-10-30T09:00:00+00:00
+209662,78,Foreign Affairs Committee,Committee Chairs write to Director of Public Prosecutions on alleged Official Secrets Acts breaches,14,31,270,15.62,2025-10-16T16:12:15+00:00
+209634,78,Foreign Affairs Committee,Update on select committee work relating to China spy case,10,46,106,14.51,2025-10-16T09:18:37+00:00
+209336,78,Foreign Affairs Committee,"FCDO cuts “a gift to China and Russia"" at the UN",11,39,955,15.37,2025-09-20T23:05:00+00:00
+209308,78,Foreign Affairs Committee,"Foreign, Commonwealth and Development Office responds to the Foreign Affairs Committee questions on Lord Mandelson appointment",16,33,156,16.09,2025-09-16T12:09:30+00:00
+209287,78,Foreign Affairs Committee,Foreign Affairs Committee calls for hearing on Mandelson appointment and dismissal,11,39,201,14.48,2025-09-15T15:23:59+00:00
+208645,78,Foreign Affairs Committee,Foreign Affairs Committee: Now is the time for the UK to act on Middle East peace,16,19,990,14.25,2025-07-25T07:00:11+00:00
+208240,78,Foreign Affairs Committee,China audit: “we are operating in the dark”,8,26,297,12.14,2025-07-08T15:22:04+00:00
+207445,78,Foreign Affairs Committee,Foreign Affairs Committee Chair: Foreign Office budget “stretched thin” and cuts “alarming”,12,17,377,12.76,2025-06-11T15:20:27+00:00
+212642,81,Health and Social Care Committee,Independent Expert Panel to investigate pitfalls in young people’s transition to adult health and care services,16,37,319,16.74,2026-03-12T11:39:22+00:00
+211969,81,Health and Social Care Committee,Government accepts many conclusions of Independent Expert Panel’s report on palliative care services in England,15,32,245,24.77,2026-02-19T10:04:28+00:00
+211864,81,Health and Social Care Committee,Committees to examine children and young people’s mental health in new inquiry,12,21,661,14.63,2026-02-13T09:19:28+00:00
+211789,81,Health and Social Care Committee,Cancer Plan: Health Committee will push Ministers for real change and patients’ voice to be heard,16,41,247,12.06,2026-02-05T17:04:13+00:00
+211450,81,Health and Social Care Committee,"Boost infants’ life chances with more Family Hubs, health visitors and new vaccines strategy, MPs tell Govt",17,48,1135,13.54,2026-01-22T00:01:00+00:00
+211224,81,Health and Social Care Committee,"NHS’s shift to neighbourhoods could flounder without strengthening the workforce, Health Committee tells Govt",14,24,343,16.64,2026-01-08T13:52:01+00:00
+210997,81,Health and Social Care Committee,Failings in black maternal health: Govt responds to Committee’s report,10,53,611,13.11,2025-12-16T13:21:35+00:00
+210923,81,Health and Social Care Committee,Health Committee launches new inquiry into transforming NHS’s local estates,10,33,588,12.52,2025-12-12T00:01:04+00:00
+210744,81,Health and Social Care Committee,"Govt risks missing golden opportunity to transform mental health services, Health Committee says",13,24,1751,12.79,2025-12-02T00:01:04+00:00
+210683,81,Health and Social Care Committee,Committee publishes Independent Expert Panel’s report on palliative care services in England,12,26,683,13.67,2025-11-28T00:01:04+00:00
+210106,81,Health and Social Care Committee,Sexual health services undervalued and under-resourced after a decade of being overlooked,12,29,609,14.16,2025-11-06T12:09:40+00:00
+209309,81,Health and Social Care Committee,"Black women still ignored in maternity care, say MPs",9,18,612,15.28,2025-09-16T23:05:00+00:00
+208507,81,Health and Social Care Committee,Autism and ADHD diagnostic pathways for children and young people: MPs write to DHSC with recommendations,16,41,603,18.8,2025-07-21T13:52:26+00:00
+208363,81,Health and Social Care Committee,How can the Government tackle the obesity epidemic? MPs’ new inquiry to cover access to nutritious food and weight management medications,21,20,966,13.33,2025-07-16T23:05:00+00:00
+208351,81,Health and Social Care Committee,Government response: Adult social care reform and the cost of inaction,11,38,571,19.0,2025-07-16T11:20:12+00:00
+212667,83,Home Affairs Committee,Report publication: Earned Settlement: Examining the Government’s proposed reforms,9,22,102,16.3,2026-03-13T11:43:14+00:00
+212026,83,Home Affairs Committee,AI used to reinforce false narratives in Maccabi fan ban – report finds,13,25,769,14.3,2026-02-22T00:01:00+00:00
+211790,83,Home Affairs Committee,New inquiry: The impact of serious and organised crime on local neighbourhoods,12,21,344,14.07,2026-02-06T10:30:36+00:00
+211486,83,Home Affairs Committee,Publication of Government Response to Asylum Accommodation Report,8,15,268,16.71,2026-01-22T10:26:32+00:00
+211396,83,Home Affairs Committee,Home affairs select committee to hold “citizen-assembly style” events on immigration,11,22,888,14.01,2026-01-19T10:20:06+00:00
+210874,83,Home Affairs Committee,Publication of Correspondence: Policing of Aston Villa vs Maccabi Tel Aviv fixture,12,46,175,19.66,2025-12-10T12:37:23+00:00
+210867,83,Home Affairs Committee,Committee Chairs write to Ministers on VAWG Strategy,8,48,144,19.21,2025-12-10T11:02:25+00:00
+210161,83,Home Affairs Committee,Home Office Permanent Secretary questioned on departmental performance,8,25,176,18.22,2025-11-10T12:54:39+00:00
+209874,83,Home Affairs Committee,Billions squandered on asylum accommodation by Home Office mismanagement – Home Affairs Committee report finds,15,30,454,14.54,2025-10-27T00:01:03+00:00
+209752,83,Home Affairs Committee,New inquiry: Routes to Settlement,5,24,583,12.46,2025-10-21T09:35:00+00:00
+209662,83,Home Affairs Committee,Committee Chairs write to Director of Public Prosecutions on alleged Official Secrets Acts breaches,14,31,270,15.62,2025-10-16T16:12:15+00:00
+209634,83,Home Affairs Committee,Update on select committee work relating to China spy case,10,46,106,14.51,2025-10-16T09:18:37+00:00
+209585,83,Home Affairs Committee,MPs to question Border Security Commander on tackling small boat crossings,11,41,312,19.96,2025-10-13T10:18:42+00:00
+209534,83,Home Affairs Committee,Home Affairs and Justice Committee Chairs publish response from the DPP,11,23,123,20.52,2025-10-08T10:34:58+00:00
+209426,83,Home Affairs Committee,Home Affairs and Justice Committee Chairs write to the DPP,10,26,96,0.0,2025-09-30T08:59:32+00:00
+212693,17,"Housing, Communities and Local Government Committee",What is the state of electoral democracy in the UK today?  MPs launch modernising elections inquiry,16,16,717,14.51,2026-03-18T10:00:10+00:00
+212656,17,"Housing, Communities and Local Government Committee",Housing Committee examines Draft Commonhold and Leasehold Reform Bill and publishes written evidence submissions,14,37,526,22.71,2026-03-12T13:54:57+00:00
+212115,17,"Housing, Communities and Local Government Committee",Angela Rayner MP and Lord Michael Gove to give evidence to Housing Committee on Draft Commonhold and Leasehold Reform Bill,20,25,376,18.45,2026-02-26T10:23:28+00:00
+211915,17,"Housing, Communities and Local Government Committee",England council elections: HCLG Committee Chair comment,7,9,108,13.98,2026-02-16T15:52:36+00:00
+211858,17,"Housing, Communities and Local Government Committee",Draft Commonhold and Leasehold Reform Bill pre-legislative scrutiny: Housing Committee begins weekly evidence sessions from 3 March,17,29,322,21.62,2026-02-12T17:14:59+00:00
+211804,17,"Housing, Communities and Local Government Committee","Social housing conditions barely improved since pandemic, says Housing Committee",10,43,646,19.16,2026-02-09T00:01:04+00:00
+211734,17,"Housing, Communities and Local Government Committee",Draft Commonhold and Leasehold Reform Bill: Housing Committee launches inquiry examining draft legislation,13,21,463,17.12,2026-02-04T11:30:11+00:00
+211579,17,"Housing, Communities and Local Government Committee",Housing Committee Chair responds to Government’s publication of draft Commonhold and Leasehold Reform Bill,14,31,297,16.58,2026-01-27T14:04:27+00:00
+211309,17,"Housing, Communities and Local Government Committee",Housing Committee raises concerns to Holiday Inn owner after homeless people refused entry to Manchester city centre hotel,18,33,220,16.18,2026-01-14T13:35:46+00:00
+211070,17,"Housing, Communities and Local Government Committee",Government fails to bring forward draft   leasehold legislation: Housing Committee Chair responds,12,37,306,14.28,2025-12-18T16:37:09+00:00
+210642,17,"Housing, Communities and Local Government Committee",Budget 2025: Housing Committee Chair responds on council tax surcharge and lifting of two child benefit limit,17,19,230,13.54,2025-11-26T16:43:30+00:00
+210562,17,"Housing, Communities and Local Government Committee",Housing supply: Housing Committee Chair comments on slow pace of housing delivery,12,30,198,17.07,2025-11-20T14:30:55+00:00
+210107,17,"Housing, Communities and Local Government Committee",Housing Committee raises concerns on Government’s London housing delivery & affordable homes plan,13,45,328,15.6,2025-11-06T12:48:39+00:00
+209893,17,"Housing, Communities and Local Government Committee","The Government must reform developer levies to deliver investment in the New Towns programme, local services, and affordable housing, say MPs",21,54,894,19.62,2025-10-28T00:01:04+00:00
+209849,17,"Housing, Communities and Local Government Committee",Housing Committee Chair responds to Government’s housing delivery announcement,9,19,326,17.97,2025-10-24T09:31:45+00:00
+212602,98,International Development Committee,IDC Chair: New report should end plans to scrap UK aid watchdog,12,20,311,14.5,2026-03-12T09:22:14+00:00
+212296,98,International Development Committee,New inquiry: FCDO’s approach to higher education and research partnerships,10,24,538,12.64,2026-03-04T12:14:26+00:00
+211745,98,International Development Committee,MPs call for FCDO cuts to be paused and poverty reduction plans set out,14,30,454,15.25,2026-02-05T00:15:00+00:00
+211214,98,International Development Committee,International Development Committee Chair urges Foreign Secretary to act over UNRWA restrictions,12,31,344,15.59,2026-01-08T11:01:31+00:00
+210779,98,International Development Committee,"UK cuts did not contribute to spiralling Sudan conflict, Government insists",11,11,451,15.54,2025-12-04T00:15:00+00:00
+210778,98,International Development Committee,MPs launch inquiry on UK’s international climate finance,8,8,465,18.19,2025-12-03T16:10:11+00:00
+210729,98,International Development Committee,"Ending Government funding for FGM prevention programme puts women and girls at ‘serious risk’, Committee Chairs warn",17,36,402,21.22,2025-12-02T09:23:48+00:00
+210668,98,International Development Committee,"Government must pause FCDO staffing cuts or risk exodus, Committee Chair says",12,37,383,14.42,2025-11-28T00:01:00+00:00
+210501,98,International Development Committee,BBC World Service cuts will “come at expense of world’s most vulnerable”: Committee Chair responds to NAO report,18,25,264,14.62,2025-11-19T00:01:04+00:00
+210447,98,International Development Committee,MPs: UK must protect aid for community-led energy access,9,13,496,15.25,2025-11-14T00:15:00+00:00
+210410,98,International Development Committee,BBC Chair writes to MPs on World Service funding,9,19,212,12.62,2025-11-12T17:43:07+00:00
+210337,98,International Development Committee,IDC Chair: UK’s reduced Global Fund investment will cause “avoidable harm”,11,31,250,13.15,2025-11-11T16:27:43+00:00
+209930,98,International Development Committee,"Aid cuts and poor value for money means UK aid may not reach those most in need, MPs find in new report",22,30,756,14.68,2025-10-29T00:01:01+00:00
+209484,98,International Development Committee,Future of UK international aid: MPs launch inquiry amidst 40% budget cut,12,25,733,12.99,2025-10-02T10:22:13+00:00
+209350,98,International Development Committee,"Palestinian recognition a “clear and powerful message”, says Committee Chair",10,22,123,15.62,2025-09-21T13:45:27+00:00
+212672,102,Justice Committee,Appointment of Chair of the Office for Legal Complaints,9,15,102,15.04,2026-03-13T15:30:43+00:00
+212216,102,Justice Committee,Call for evidence: Legislative scrutiny of the Courts and Tribunals Bill,11,19,607,17.69,2026-02-27T12:11:51+00:00
+212075,102,Justice Committee,Justice Committee Chair comment: Courts and Tribunals Bill,8,11,297,17.8,2026-02-25T17:17:29+00:00
+211742,102,Justice Committee,Justice Committee Chair comment: Independent Review of the Criminal Courts Part II (Leveson Review),14,11,135,17.06,2026-02-04T15:36:46+00:00
+211651,102,Justice Committee,"‘Alarming’ reduction in prison education provision ‘risks jeopardising’ prison rehabilitation, Justice Committee warns",13,28,649,16.32,2026-01-30T00:01:07+00:00
+211262,102,Justice Committee,Justice Committee launches new inquiry into youth custody,8,21,921,15.93,2026-01-12T14:00:03+00:00
+211223,102,Justice Committee,Drug use in prisons is ‘too high’ Ministers acknowledge after Justice Committee report’s warning of ‘dangerous culture of acceptance’,19,34,504,19.38,2026-01-09T00:01:06+00:00
+210867,102,Justice Committee,Committee Chairs write to Ministers on VAWG Strategy,8,48,144,19.21,2025-12-10T11:02:25+00:00
+210767,102,Justice Committee,Justice Committee Chair comment: Lord Chancellor’s statement on Criminal Court Reform following the Independent Review of the Criminal Courts Part 1 (Leveson Review),23,11,204,12.67,2025-12-02T17:06:59+00:00
+210443,102,Justice Committee,"‘Dire’ prison conditions putting rehabilitation and reoffending reduction ‘at risk’, Justice Committee warns",13,33,1167,15.68,2025-11-14T00:01:02+00:00
+210097,102,Justice Committee,Justice Committee Chair comment: Prisoner releases,6,11,182,15.5,2025-11-06T10:01:34+00:00
+209981,102,Justice Committee,Prisons drugs crisis: ‘Dangerous culture of acceptance must be broken’ Justice Committee warns,13,38,327,18.4,2025-10-31T00:01:05+00:00
+209657,102,Justice Committee,"Urgent review ‘essential’ to overhaul ‘dysfunctional’ County Court, Justice Committee warns",11,43,754,17.49,2025-10-16T23:05:01+00:00
+209662,102,Justice Committee,Committee Chairs write to Director of Public Prosecutions on alleged Official Secrets Acts breaches,14,31,270,15.62,2025-10-16T16:12:15+00:00
+209634,102,Justice Committee,Update on select committee work relating to China spy case,10,46,106,14.51,2025-10-16T09:18:37+00:00
+211854,120,Northern Ireland Affairs Committee,The Government’s new approach to addressing the legacy of the past in Northern Ireland: NIAC publishes response to report,19,29,194,15.18,2026-02-12T14:18:51+00:00
+211797,120,Northern Ireland Affairs Committee,Operation Kenova: MPs call on Government to formally name agent Stakeknife,11,36,444,19.17,2026-02-09T00:15:00+00:00
+211741,120,Northern Ireland Affairs Committee,Vacancy: Specialist Adviser to Northern Ireland Affairs Committee,8,23,524,17.56,2026-02-04T15:33:23+00:00
+211570,120,Northern Ireland Affairs Committee,Local growth fund: Northern Ireland Affairs Committee Chair calls on UK Government to reverse capital-revenue split,16,16,214,18.08,2026-01-27T09:20:15+00:00
+211437,120,Northern Ireland Affairs Committee,Local Growth Fund: MPs write to UK Government over voluntary sector funding cut,13,13,277,17.14,2026-01-21T10:35:55+00:00
+210710,120,Northern Ireland Affairs Committee,MPs call for more detail and greater clarity on Government’s Northern Ireland legacy plans,14,29,1499,18.49,2025-12-01T00:15:00+00:00
+209385,120,Northern Ireland Affairs Committee,New inquiry: MPs to examine policing and security in Northern Ireland,11,21,392,15.01,2025-09-24T08:00:20+00:00
+209329,120,Northern Ireland Affairs Committee,Northern Ireland Affairs Committee writes to Government over legacy agreement delay,11,43,194,17.58,2025-09-17T10:28:42+00:00
+208373,120,Northern Ireland Affairs Committee,Violence against women and girls in Northern Ireland: MPs call for funding to tackle online abuse and more joined-up response across UK,22,36,805,17.49,2025-07-17T09:58:06+00:00
+208273,120,Northern Ireland Affairs Committee,New inquiry - Economic growth in Northern Ireland: new and emerging sectors,12,27,522,14.24,2025-07-10T09:22:27+00:00
+207472,120,Northern Ireland Affairs Committee,The Government’s new approach to addressing the legacy of the past in Northern Ireland: MPs outline evidence to Secretary of State,21,52,341,21.12,2025-06-12T09:00:42+00:00
+206345,120,Northern Ireland Affairs Committee,MPs set out funding solutions to help solve Northern Ireland public service crisis,13,37,791,19.72,2025-04-07T08:36:24+00:00
+212660,135,"Science, Innovation and Technology Committee","Government ‘flying blind’ on regional growth without proper data, MPs warn",11,42,619,16.82,2026-03-13T00:15:00+00:00
+212270,135,"Science, Innovation and Technology Committee",UKRI shares first detailed comparisons of past and future spending under new ‘bucket’ model,14,30,349,16.77,2026-03-03T09:05:33+00:00
+211816,135,"Science, Innovation and Technology Committee","Government must take a stronger stance to disincentivise phone theft, Chair warns",12,38,471,15.0,2026-02-09T13:15:23+00:00
+211725,135,"Science, Innovation and Technology Committee","Costs of UK-US Pharma Deal will be met by DHSC, Science Minister confirms",13,31,276,14.1,2026-02-04T00:01:07+00:00
+211426,135,"Science, Innovation and Technology Committee",MPs press government for clarity on the UK-US life sciences deal,11,33,489,16.25,2026-01-20T14:48:31+00:00
+211307,135,"Science, Innovation and Technology Committee",Liz Kendall details government’s plans to tackle intimate AI deepfakes,10,31,445,15.06,2026-01-14T09:42:20+00:00
+211248,135,"Science, Innovation and Technology Committee",Committee presses Government and Ofcom for details on action against AI intimate deepfakes,13,38,469,15.23,2026-01-09T15:33:21+00:00
+211038,135,"Science, Innovation and Technology Committee",Life sciences: Science and Tech Committee presses government for details on US trade deal,14,40,471,12.94,2025-12-19T00:01:03+00:00
+210995,135,"Science, Innovation and Technology Committee","Government complacent over phone theft, fails to commit to long-promised summit with tech companies and police",16,16,475,13.84,2025-12-16T11:51:51+00:00
+210757,135,"Science, Innovation and Technology Committee",How can consumers be protected from harmful hair and beauty products and treatments? MPs launch inquiry,16,32,425,14.99,2025-12-02T12:45:16+00:00
+210640,135,"Science, Innovation and Technology Committee","Budget 2025: Science, Innovation and Technology Committee Chair responds",9,9,261,14.56,2025-11-26T15:56:36+00:00
+210511,135,"Science, Innovation and Technology Committee","Government must make urgent changes to restore confidence of UK life sciences sector, Committee warns",15,42,408,14.62,2025-11-19T00:15:00+00:00
+210394,135,"Science, Innovation and Technology Committee",TikTok fails to share evidence behind increased AI use in content moderation,12,29,450,13.57,2025-11-13T00:01:04+00:00
+210065,135,"Science, Innovation and Technology Committee",Government lacks coherent strategy on how to tackle insect decline and protect UK ecosystems,14,14,434,15.43,2025-11-05T11:20:21+00:00
+209950,135,"Science, Innovation and Technology Committee",Science Committee asks TikTok for clarity about how it will keep users safe online if it slashes Trust and Safety staff,21,43,511,14.4,2025-10-30T00:01:04+00:00
+211649,136,Scottish Affairs Committee,"MPs warn of urgent need to avoid repeating mistakes of past deindustrialisation, in annual review",15,21,596,16.39,2026-01-30T00:15:00+00:00
+211385,136,Scottish Affairs Committee,"UK Government pledges growth of Scotland’s clean energy workforce, but MPs warn that delivery will be the real test",19,37,528,15.88,2026-01-16T15:16:49+00:00
+210721,136,Scottish Affairs Committee,UK Government pledges to provide clarity to Scotland’s launch sector in 2026,12,29,438,15.2,2025-12-01T12:00:45+00:00
+210560,136,Scottish Affairs Committee,"Government rules out change to drug legislation, even if The Thistle is successful",13,25,453,14.87,2025-11-20T11:55:18+00:00
+210448,136,Scottish Affairs Committee,How can digital connectivity be improved across rural and remote areas of Scotland? MPs launch inquiry and survey for views,20,30,496,15.92,2025-11-14T11:03:23+00:00
+210310,136,Scottish Affairs Committee,How can Scotland’s high streets best serve local communities?,9,33,431,13.59,2025-11-11T10:57:57+00:00
+209993,136,Scottish Affairs Committee,Could fixed link connections strengthen Scotland’s island economies? Committee to investigate,11,11,351,15.04,2025-10-31T14:15:10+00:00
+209889,136,Scottish Affairs Committee,How can increased defence spending boost Scotland’s economy and jobs? MPs launch new inquiry,14,20,383,13.73,2025-10-27T11:56:31+00:00
+209788,136,Scottish Affairs Committee,MPs warn clean energy jobs not being created at the pace or scale needed to match North Sea oil and gas decline,22,32,739,15.39,2025-10-23T23:05:03+00:00
+209288,136,Scottish Affairs Committee,"Given the scale of Scotland’s drug death crisis, Glasgow’s Pilot Safer Drug Consumption Facility must be considered on its merits",20,23,688,15.51,2025-09-15T23:05:00+00:00
+209198,136,Scottish Affairs Committee,Scotland at risk of losing ‘generational opportunity’ to become European space launch leader,13,54,491,15.67,2025-09-10T09:12:32+00:00
+208364,136,Scottish Affairs Committee,“We’ve got to keep up with the rest of the world”: Chris Skidmore on UK’s clean power ambitions,18,24,8099,10.41,2025-07-16T23:00:12+00:00
+208350,136,Scottish Affairs Committee,"Barnett formula fit for purpose, but more transparency needed, MPs say",11,29,611,17.45,2025-07-16T08:16:52+00:00
+208054,136,Scottish Affairs Committee,Support for military veterans and the future of North Sea energy to be examined in upcoming sessions for Scottish Affairs Committee,21,39,333,21.29,2025-06-27T15:28:57+00:00
+207444,136,Scottish Affairs Committee,"Spending Review comment – Patricia Ferguson, Scottish Affairs Committee Chair, comments on carbon capture tech and defence",17,19,143,14.1,2025-06-11T15:08:56+00:00
+212232,153,Transport Committee,Transport Committee get its inquiry into supercharging the EV transition under way with a focus on the current state of charging infrastructure,22,26,259,17.93,2026-02-27T16:13:27+00:00
+211808,153,Transport Committee,MPs look for certainty and end to 'micromanagement' under Great British Railways,12,31,657,15.37,2026-02-10T00:01:02+00:00
+211618,153,Transport Committee,Road Safety Strategy: MPs to examine Govt plans for reducing death and serious injury on the roads,17,22,438,14.18,2026-01-29T10:12:03+00:00
+211588,153,Transport Committee,Transport Committee calls for action to secure skills for transport manufacturing,11,33,703,19.43,2026-01-28T00:01:02+00:00
+211456,153,Transport Committee,Explaining the Manchester-London ‘ghost train’: Committee publishes regulator’s letter,9,25,259,14.6,2026-01-21T16:31:56+00:00
+211227,153,Transport Committee,Transport Committee Chair welcomes action on pavement parking,8,19,218,15.82,2026-01-08T16:52:16+00:00
+211005,153,Transport Committee,Supercharging the EV transition: Transport Committee launches new inquiry,9,24,326,13.71,2025-12-18T09:59:51+00:00
+210859,153,Transport Committee,Transport Committee welcomes future support for rural bus services,9,34,277,14.44,2025-12-10T10:01:25+00:00
+210774,153,Transport Committee,Railways Bill: Transport Committee publishes written evidence,7,43,253,14.05,2025-12-03T13:32:44+00:00
+210386,153,Transport Committee,Transport Committee publishes review of Govt’s planned revamp of planning policies for ports,13,24,505,14.99,2025-11-14T00:01:04+00:00
+210387,153,Transport Committee,Driving tests: Transport Committee Chair comments on new plans to cut backlogs,12,31,188,16.28,2025-11-12T14:25:39+00:00
+210090,153,Transport Committee,"DfT’s Accessible Railways Roadmap needs funding that matches scale of challenge, Transport Committee Chair says",15,11,301,13.56,2025-11-05T16:18:03+00:00
+210085,153,Transport Committee,Railways Bill: Transport Committee launches new inquiry into Govt’s landmark legislation,11,25,604,16.05,2025-11-05T15:16:29+00:00
+209984,153,Transport Committee,"Govt lacks ambition to revive England’s bus services, Transport Committee says",11,32,436,13.12,2025-10-31T00:01:04+00:00
+209839,153,Transport Committee,When will Govt tackle driving test backlogs and stop the bots? Transport Committee publishes letters with Minister,17,25,274,14.58,2025-10-23T16:28:03+00:00
+212710,158,Treasury Committee,Parliament veto needed to enhance FOS independence following governance change,10,26,330,17.72,2026-03-18T10:05:09+00:00
+212700,158,Treasury Committee,Lloyds faces questions on IT glitch,6,24,164,13.07,2026-03-17T12:33:12+00:00
+212575,158,Treasury Committee,Student loans: new inquiry on repayment terms and the taxation of graduates launches,13,17,363,13.43,2026-03-12T00:01:03+00:00
+211484,158,Treasury Committee,‘A victory for common sense’: Government confirms Budget decision to hike taxes on online gambling,15,31,206,13.68,2026-01-22T11:01:42+00:00
+211401,158,Treasury Committee,Current approach to AI in financial services risks serious harm to consumers and wider system,15,48,538,15.89,2026-01-20T00:01:04+00:00
+211322,158,Treasury Committee,National Wealth Fund Strategy to reflect Committee recommendations,8,24,297,15.0,2026-01-15T00:01:04+00:00
+211308,158,Treasury Committee,Government responds to Cash ISA report,6,15,223,12.46,2026-01-14T09:35:00+00:00
+210885,158,Treasury Committee,15 years of the OBR: MPs to look at role and potential reforms in new inquiry,16,19,247,12.67,2025-12-12T08:56:45+00:00
+210745,158,Treasury Committee,Statement on the resignation of Richard Hughes,7,29,150,14.49,2025-12-01T17:52:02+00:00
+210684,158,Treasury Committee,Financial inclusion ‘must not be box-ticking exercise’: new inquiry launches,10,15,250,13.91,2025-11-28T11:26:02+00:00
+210685,158,Treasury Committee,OBR responds to Chair letter ahead of Tuesday morning public session,11,18,183,14.27,2025-11-28T11:13:57+00:00
+210678,158,Treasury Committee,Lifetime ISA reform welcomed by Chair,6,27,212,12.07,2025-11-27T16:02:34+00:00
+210631,158,Treasury Committee,‘Scaremongering has failed’: Meg Hillier statement on gambling tax changes announced in Budget,13,30,225,13.25,2025-11-26T14:05:58+00:00
+210629,158,Treasury Committee,"Chancellor, OBR and economists Budget sessions announced",7,17,244,19.08,2025-11-26T13:56:50+00:00
+210486,158,Treasury Committee,‘Cavalier’ approach to Child Benefit checks criticised by Treasury Committee Chair,11,33,301,13.82,2025-11-18T00:01:06+00:00
+212683,162,Welsh Affairs Committee,New inquiry: MPs to examine child poverty in Wales,9,17,474,14.65,2026-03-16T17:24:31+00:00
+212007,162,Welsh Affairs Committee,What is your experience with cross-border healthcare between England and Wales? Welsh Affairs Committee seeking views,16,23,199,15.5,2026-02-20T10:10:05+00:00
+211728,162,Welsh Affairs Committee,New inquiry: Cross-border healthcare arrangements between England and Wales,9,20,423,14.18,2026-02-04T10:00:11+00:00
+211500,162,Welsh Affairs Committee,Welsh Affairs Committee statement on future of rugby in Wales,10,21,200,14.05,2026-01-22T12:40:14+00:00
+211111,162,Welsh Affairs Committee,Welsh Affairs Committee Chair:  Inheritance tax threshold increase welcomed but Wales-specific impact assessment still needed,15,46,185,12.62,2025-12-23T15:15:25+00:00
+210349,162,Welsh Affairs Committee,Farming in Wales: MPs call for inheritance tax delay after uncertainty and confusion caused by Government complacency,17,8,1465,18.66,2025-11-12T00:00:00+00:00
+210353,162,Welsh Affairs Committee,Ffermio yng Nghymru: Aelodau Seneddol yn galw am oedi treth etifeddiant ar ôl ansicrwydd a dryswch wedi’u hachosi gan ddull dibryder y Llywodraeth,23,23,1544,19.37,2025-11-12T00:00:00+00:00
+209877,162,Welsh Affairs Committee,MPs to question WRU on consultation outcome and importance of rugby to Wales,13,37,176,14.91,2025-10-24T14:07:30+00:00
+209821,162,Welsh Affairs Committee,Welsh language provision in prisons: Welsh Affairs Committee Chair responds to concerns over rights of Welsh speaking prisoners,18,14,175,15.57,2025-10-23T16:13:37+00:00
+209420,162,Welsh Affairs Committee,Welsh Affairs Committee Chair welcomes release of Wales-specific justice data,10,29,268,16.22,2025-09-29T16:13:24+00:00
+209187,162,Welsh Affairs Committee,Defence Industrial Strategy: Welsh Affairs Committee Chair Ruth Jones welcomes Defence Growth Deal for Wales,15,25,305,19.84,2025-09-09T10:15:13+00:00
+208002,162,Welsh Affairs Committee,Welsh Affairs Committee statement on securing the future of Welsh universities,11,35,239,17.43,2025-06-26T10:36:01+00:00
+207599,162,Welsh Affairs Committee,Cadeirydd y Pwyllgor Materion Cymreig yn ymateb i'r Adolygiad o Wariant,11,11,277,15.96,2025-06-13T09:32:16+00:00
+207471,162,Welsh Affairs Committee,Welsh Affairs Committee Chair responds to Spending Review,8,8,252,15.29,2025-06-12T08:52:56+00:00
+206829,162,Welsh Affairs Committee,MPs to hear from vice-chancellors on challenges facing universities in Wales,11,29,375,17.54,2025-05-15T09:00:10+00:00
+212280,328,Women and Equalities Committee,"Improving menstrual health must be prioritised in Women’s Health Strategy and wider NHS reforms, WEC says",16,32,940,16.73,2026-03-04T00:01:05+00:00
+211940,328,Women and Equalities Committee,Ban liquid BBLs and ‘high harm’ procedures,7,18,1323,16.94,2026-02-18T00:01:00+00:00
+211867,328,Women and Equalities Committee,WEC writes to Cabinet Ministers calling for stronger protections to tackle misogyny in music,14,45,466,17.06,2026-02-13T10:53:19+00:00
+211784,328,Women and Equalities Committee,"Increased funding to tackle HIV welcome but further improvements in access to PrEP required, WEC warns",16,43,711,16.58,2026-02-06T00:01:03+00:00
+211662,328,Women and Equalities Committee,"Abuse targeted at Muslim women is ‘damaging’ lives and having a ‘corrosive effect’ on community cohesion, WEC warns",18,26,1045,18.25,2026-01-30T00:01:00+00:00
+211564,328,Women and Equalities Committee,"Government ready to intervene if investment in female entrepreneurs ‘shows no sign of improvement’, following WEC’s report",17,41,747,19.67,2026-01-27T00:01:07+00:00
+211219,328,Women and Equalities Committee,WEC Chair writes to Minister and Ofcom over NCII on X,11,36,87,0.0,2026-01-08T12:23:40+00:00
+210867,328,Women and Equalities Committee,Committee Chairs write to Ministers on VAWG Strategy,8,48,144,19.21,2025-12-10T11:02:25+00:00
+210729,328,Women and Equalities Committee,"Ending Government funding for FGM prevention programme puts women and girls at ‘serious risk’, Committee Chairs warn",17,36,402,21.22,2025-12-02T09:23:48+00:00
+210497,328,Women and Equalities Committee,"Concerning rise in HIV diagnosis rates among women and ‘stretched’ services require attention in HIV action plan, WEC says",19,39,876,16.45,2025-11-19T00:01:07+00:00
+210416,328,Women and Equalities Committee,WEC launches new inquiry into egg donation and freezing,9,22,318,14.35,2025-11-13T10:41:40+00:00
+209765,328,Women and Equalities Committee,WEC calls Autumn Statement an opportunity to unlock the economic potential of female entrepreneurs,14,34,1292,17.84,2025-10-21T23:05:00+00:00
+209672,328,Women and Equalities Committee,WEC welcomes Government’s action on FGM reconstructive surgery recommendation,9,31,504,17.34,2025-10-17T10:29:57+00:00
+209345,328,Women and Equalities Committee,"Review of the UK’s Parental Leave System is a “watershed moment,” as WEC warns that tinkering around the edges “will let down” families",23,28,947,18.17,2025-09-18T23:05:01+00:00
+209243,328,Women and Equalities Committee,"More action needed to tackle FGM in the UK and support its victims, WEC finds",15,43,1112,16.3,2025-09-12T06:00:11+00:00
+211612,164,Work and Pensions Committee,Committees launch joint inquiry on Government’s Child Poverty Strategy,9,30,1044,12.81,2026-01-29T00:01:03+00:00
+211352,164,Work and Pensions Committee,MPs endorse Emma Douglas for Pensions watchdog chair,8,20,242,15.16,2026-01-16T11:00:11+00:00
+211364,164,Work and Pensions Committee,MPs to question DWP officials amid complaints controversy,8,38,324,16.56,2026-01-16T10:57:38+00:00
+211215,164,Work and Pensions Committee,Committee launch new inquiry on tackling youth NEET crisis,9,31,945,10.93,2026-01-08T11:31:43+00:00
+210458,164,Work and Pensions Committee,"‘Broken’ careers service funding model to be reformed, Government confirms",10,26,532,14.33,2025-11-14T11:26:43+00:00
+210415,164,Work and Pensions Committee,Government agrees to end ‘rigid focus’ on weekly 35-hour job search rules after Committee report,15,39,523,13.14,2025-11-13T09:57:43+00:00
+210150,164,Work and Pensions Committee,Inquiry launched on pre-pension income gap support,7,24,880,13.57,2025-11-10T11:21:41+00:00
+209885,164,Work and Pensions Committee,Committee Chair flags disability poverty risk in wake of Government response,11,20,249,16.88,2025-10-24T14:54:46+00:00
+209216,164,Work and Pensions Committee,MPs: Careers service reform an ‘exciting opportunity’ needing more detail,10,42,597,15.79,2025-09-10T23:01:00+00:00
+209169,164,Work and Pensions Committee,"Jobcentres shakeup needs more detail and ambition, say MPs",9,50,682,14.83,2025-09-07T23:01:00+00:00
+208804,164,Work and Pensions Committee,MPs open Child Maintenance Service inquiry,6,33,842,11.44,2025-07-31T08:59:35+00:00
+208767,164,Work and Pensions Committee,Concerns new UC health claimants could face poverty,8,40,481,18.0,2025-07-29T09:52:04+00:00
+208519,164,Work and Pensions Committee,MPs call for national strategy to tackle pensioner poverty,9,29,887,15.44,2025-07-23T23:05:02+00:00
+208345,164,Work and Pensions Committee,MPs launch new inquiry to address disability employment gap,9,38,748,12.06,2025-07-16T08:18:58+00:00
+206825,164,Work and Pensions Committee,MPs call for new legal duty for DWP to safeguard claimants,11,45,673,13.96,2025-05-14T23:05:02+00:00
