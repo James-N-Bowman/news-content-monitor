@@ -66,16 +66,8 @@ def generate_index_html(csv_path, output_dir='docs'):
         
         <h2>Visual Trends</h2>
         <div class="visuals">
-
-            <img src="monthly_trend.svg" onclick="document.getElementById('myModal').style.display='block'" style="cursor:zoom-in; width:100%; max-width:600px;">
-
-            <div id="myModal" class="modal">
-            <span class="close" onclick="document.getElementById('myModal').style.display='none'">&times;</span>
-            <img class="modal-content" src="graph.png">
-            </div>
-
-            #<img src="monthly_trend.svg" alt="Monthly Trend">
-            <img src="committee_avg.svg" alt="Committee Averages">
+            <img src="monthly_trend.svg" alt="Monthly Trend" href="monthly_trend.svg">
+            <img src="committee_avg.svg" alt="Committee Averages" href="committee_avg.svg">
         </div>
 
         <h2>Latest 30 Updates</h2>
