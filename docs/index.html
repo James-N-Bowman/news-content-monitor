@@ -17,6 +17,26 @@
             .download-link { display: inline-block; margin-top: 20px; padding: 10px 15px; background: #2ea44f; color: white; text-decoration: none; border-radius: 6px; font-weight: bold; }
             .download-link:hover { background: #2c974b; }
             .footer { margin-top: 50px; font-size: 0.8em; color: #57606a; }
+            .modal {
+            display: none; 
+            position: fixed; 
+            z-index: 1000; 
+            left: 0; top: 0;
+            width: 100%; height: 100%;
+            background-color: rgba(0,0,0,0.8); /* Black w/ opacity */
+            }
+            .modal-content {
+            margin: auto;
+            display: block;
+            max-width: 90%;
+            max-height: 90vh;
+            margin-top: 5vh;
+            }
+            .close {
+            position: absolute;
+            top: 20px; right: 35px;
+            color: white; font-size: 40px; font-weight: bold; cursor: pointer;
+            }
         </style>
     </head>
     <body>
@@ -24,7 +44,15 @@
         
         <h2>Visual Trends</h2>
         <div class="visuals">
-            <img src="monthly_trend.svg" alt="Monthly Trend">
+
+            <img src="monthly_trend.svg" onclick="document.getElementById('myModal').style.display='block'" style="cursor:zoom-in; width:100%; max-width:600px;">
+
+            <div id="myModal" class="modal">
+            <span class="close" onclick="document.getElementById('myModal').style.display='none'">&times;</span>
+            <img class="modal-content" src="graph.png">
+            </div>
+
+            #<img src="monthly_trend.svg" alt="Monthly Trend">
             <img src="committee_avg.svg" alt="Committee Averages">
         </div>
 
@@ -35,8 +63,9 @@
                     <th>Date</th>
                     <th>Committee</th>
                     <th>Heading</th>
-                    <th>Words</th>
-                    <th>Score</th>
+                    <th>Heading word count</th>
+                    <th>Article word count</th>
+                    <th>Readability score</th>
                 </tr>
             </thead>
             <tbody>
@@ -45,69 +74,23 @@
                     <td>18 Mar 2026</td>
                     <td>Culture, Media and Sport Committee</td>
                     <td>Copyright and AI: Comment from CMS Committee Chair Dame Caroline Dinenage MP</td>
+                    <td>12</td>
                     <td>228</td>
                     <td>14.67</td>
                 </tr>
                 <tr>
                     <td>18 Mar 2026</td>
-                    <td>Environment, Food and Rural Affairs Committee</td>
-                    <td>Land use and nature inquiry launched by EFRA Committee</td>
-                    <td>382</td>
-                    <td>15.99</td>
-                </tr>
-                <tr>
-                    <td>18 Mar 2026</td>
-                    <td>Treasury Committee</td>
-                    <td>Parliament veto needed to enhance FOS independence following governance change</td>
-                    <td>330</td>
-                    <td>17.72</td>
-                </tr>
-                <tr>
-                    <td>18 Mar 2026</td>
                     <td>Housing, Communities and Local Government Committee</td>
                     <td>What is the state of electoral democracy in the UK today?  MPs launch modernising elections inquiry</td>
+                    <td>16</td>
                     <td>717</td>
                     <td>14.51</td>
-                </tr>
-                <tr>
-                    <td>17 Mar 2026</td>
-                    <td>Treasury Committee</td>
-                    <td>Lloyds faces questions on IT glitch</td>
-                    <td>164</td>
-                    <td>13.07</td>
-                </tr>
-                <tr>
-                    <td>16 Mar 2026</td>
-                    <td>Welsh Affairs Committee</td>
-                    <td>New inquiry: MPs to examine child poverty in Wales</td>
-                    <td>474</td>
-                    <td>14.65</td>
-                </tr>
-                <tr>
-                    <td>13 Mar 2026</td>
-                    <td>Justice Committee</td>
-                    <td>Appointment of Chair of the Office for Legal Complaints</td>
-                    <td>102</td>
-                    <td>15.04</td>
-                </tr>
-                <tr>
-                    <td>13 Mar 2026</td>
-                    <td>Home Affairs Committee</td>
-                    <td>Report publication: Earned Settlement: Examining the Government’s proposed reforms</td>
-                    <td>102</td>
-                    <td>16.3</td>
-                </tr>
-                <tr>
-                    <td>13 Mar 2026</td>
-                    <td>Justice Committee</td>
-                    <td>Planning reforms have “numerous safeguards”, Government insists</td>
-                    <td>650</td>
-                    <td>17.51</td>
                 </tr>
                 <tr>
                     <td>13 Mar 2026</td>
                     <td>Science, Innovation and Technology Committee</td>
                     <td>Government ‘flying blind’ on regional growth without proper data, MPs warn</td>
+                    <td>11</td>
                     <td>619</td>
                     <td>16.82</td>
                 </tr>
@@ -115,6 +98,7 @@
                     <td>13 Mar 2026</td>
                     <td>Business and Trade Committee</td>
                     <td>Post Office Horizon IT scandal: “serious structural failings persist” in redress</td>
+                    <td>11</td>
                     <td>674</td>
                     <td>12.85</td>
                 </tr>
@@ -122,6 +106,7 @@
                     <td>12 Mar 2026</td>
                     <td>Housing, Communities and Local Government Committee</td>
                     <td>Housing Committee examines Draft Commonhold and Leasehold Reform Bill and publishes written evidence submissions</td>
+                    <td>14</td>
                     <td>526</td>
                     <td>22.71</td>
                 </tr>
@@ -129,6 +114,7 @@
                     <td>12 Mar 2026</td>
                     <td>Culture, Media and Sport Committee</td>
                     <td>Charter Review: MPs launch inquiry on future purpose, governance and funding of BBC</td>
+                    <td>13</td>
                     <td>280</td>
                     <td>15.75</td>
                 </tr>
@@ -136,6 +122,7 @@
                     <td>12 Mar 2026</td>
                     <td>Health and Social Care Committee</td>
                     <td>Independent Expert Panel to investigate pitfalls in young people’s transition to adult health and care services</td>
+                    <td>16</td>
                     <td>319</td>
                     <td>16.74</td>
                 </tr>
@@ -143,6 +130,7 @@
                     <td>12 Mar 2026</td>
                     <td>International Development Committee</td>
                     <td>IDC Chair: New report should end plans to scrap UK aid watchdog</td>
+                    <td>12</td>
                     <td>311</td>
                     <td>14.5</td>
                 </tr>
@@ -150,20 +138,15 @@
                     <td>12 Mar 2026</td>
                     <td>Treasury Committee</td>
                     <td>Student loans: new inquiry on repayment terms and the taxation of graduates launches</td>
+                    <td>13</td>
                     <td>363</td>
                     <td>13.43</td>
                 </tr>
                 <tr>
                     <td>10 Mar 2026</td>
-                    <td>Defence Committee</td>
-                    <td>Defence Committee statement: developments in the Middle East</td>
-                    <td>194</td>
-                    <td>18.58</td>
-                </tr>
-                <tr>
-                    <td>10 Mar 2026</td>
                     <td>Business and Trade Committee</td>
                     <td>Royal Mail’s reliance on headline letter delivery figures can’t hide service failures as 219 million letters arrive late</td>
+                    <td>18</td>
                     <td>531</td>
                     <td>15.44</td>
                 </tr>
@@ -171,6 +154,7 @@
                     <td>06 Mar 2026</td>
                     <td>Culture, Media and Sport Committee</td>
                     <td>BBC’s coverage of the BAFTAs: CMS Committee publishes response from Director General Tim Davie</td>
+                    <td>14</td>
                     <td>101</td>
                     <td>16.93</td>
                 </tr>
@@ -178,6 +162,7 @@
                     <td>06 Mar 2026</td>
                     <td>Environment, Food and Rural Affairs Committee</td>
                     <td>Does your water company use bailiffs to recover debt? EFRA Committee reveals extent of debt collection practices across the industry</td>
+                    <td>20</td>
                     <td>624</td>
                     <td>12.02</td>
                 </tr>
@@ -185,6 +170,7 @@
                     <td>05 Mar 2026</td>
                     <td>Foreign Affairs Committee</td>
                     <td>X, Meta and TikTok face questions on foreign disinformation from Foreign Affairs Committee</td>
+                    <td>13</td>
                     <td>120</td>
                     <td>23.31</td>
                 </tr>
@@ -192,41 +178,23 @@
                     <td>05 Mar 2026</td>
                     <td>Business and Trade Committee</td>
                     <td>New BTC inquiry: China and the UK Economy - what is the prize, and what is the price?</td>
+                    <td>18</td>
                     <td>567</td>
                     <td>11.98</td>
                 </tr>
                 <tr>
                     <td>04 Mar 2026</td>
-                    <td>International Development Committee</td>
-                    <td>New inquiry: FCDO’s approach to higher education and research partnerships</td>
-                    <td>538</td>
-                    <td>12.64</td>
-                </tr>
-                <tr>
-                    <td>04 Mar 2026</td>
                     <td>Environment, Food and Rural Affairs Committee</td>
                     <td>‘Drive-bys’ of disease-risk illegal meat and plant products avoiding border checks revealed in new data</td>
+                    <td>15</td>
                     <td>694</td>
                     <td>12.1</td>
                 </tr>
                 <tr>
                     <td>04 Mar 2026</td>
-                    <td>Foreign Affairs Committee</td>
-                    <td>UK-EU reset lacks “direction, definition and drive”</td>
-                    <td>874</td>
-                    <td>14.01</td>
-                </tr>
-                <tr>
-                    <td>04 Mar 2026</td>
-                    <td>Justice Committee</td>
-                    <td>Fairness must drive Seventh Carbon Budget plans, MPs tell Government</td>
-                    <td>963</td>
-                    <td>16.13</td>
-                </tr>
-                <tr>
-                    <td>04 Mar 2026</td>
                     <td>Women and Equalities Committee</td>
                     <td>Improving menstrual health must be prioritised in Women’s Health Strategy and wider NHS reforms, WEC says</td>
+                    <td>16</td>
                     <td>940</td>
                     <td>16.73</td>
                 </tr>
@@ -234,6 +202,7 @@
                     <td>03 Mar 2026</td>
                     <td>Science, Innovation and Technology Committee</td>
                     <td>UKRI shares first detailed comparisons of past and future spending under new ‘bucket’ model</td>
+                    <td>14</td>
                     <td>349</td>
                     <td>16.77</td>
                 </tr>
@@ -241,6 +210,7 @@
                     <td>27 Feb 2026</td>
                     <td>Transport Committee</td>
                     <td>Transport Committee get its inquiry into supercharging the EV transition under way with a focus on the current state of charging infrastructure</td>
+                    <td>22</td>
                     <td>259</td>
                     <td>17.93</td>
                 </tr>
@@ -248,8 +218,97 @@
                     <td>27 Feb 2026</td>
                     <td>Justice Committee</td>
                     <td>Call for evidence: Legislative scrutiny of the Courts and Tribunals Bill</td>
+                    <td>11</td>
                     <td>607</td>
                     <td>17.69</td>
+                </tr>
+                <tr>
+                    <td>27 Feb 2026</td>
+                    <td>Justice Committee</td>
+                    <td>MPs to examine data centres climate impact as Miliband says future demand “inherently uncertain”</td>
+                    <td>14</td>
+                    <td>797</td>
+                    <td>14.27</td>
+                </tr>
+                <tr>
+                    <td>26 Feb 2026</td>
+                    <td>Business and Trade Committee</td>
+                    <td>Committee concerns on role of CMA Chair require risk mitigations from ministers – Pre-Appointment Report</td>
+                    <td>15</td>
+                    <td>628</td>
+                    <td>18.5</td>
+                </tr>
+                <tr>
+                    <td>26 Feb 2026</td>
+                    <td>Housing, Communities and Local Government Committee</td>
+                    <td>Angela Rayner MP and Lord Michael Gove to give evidence to Housing Committee on Draft Commonhold and Leasehold Reform Bill</td>
+                    <td>20</td>
+                    <td>376</td>
+                    <td>18.45</td>
+                </tr>
+                <tr>
+                    <td>26 Feb 2026</td>
+                    <td>Education Committee</td>
+                    <td>AI and EdTech: MPs launch new inquiry examining technology’s role in education</td>
+                    <td>12</td>
+                    <td>476</td>
+                    <td>15.5</td>
+                </tr>
+                <tr>
+                    <td>25 Feb 2026</td>
+                    <td>Culture, Media and Sport Committee</td>
+                    <td>BBC’s coverage of the BAFTAs: CMS Committee writes to Director General Tim Davie</td>
+                    <td>13</td>
+                    <td>143</td>
+                    <td>16.18</td>
+                </tr>
+                <tr>
+                    <td>22 Feb 2026</td>
+                    <td>Home Affairs Committee</td>
+                    <td>AI used to reinforce false narratives in Maccabi fan ban – report finds</td>
+                    <td>13</td>
+                    <td>769</td>
+                    <td>14.3</td>
+                </tr>
+                <tr>
+                    <td>20 Feb 2026</td>
+                    <td>Welsh Affairs Committee</td>
+                    <td>What is your experience with cross-border healthcare between England and Wales? Welsh Affairs Committee seeking views</td>
+                    <td>16</td>
+                    <td>199</td>
+                    <td>15.5</td>
+                </tr>
+                <tr>
+                    <td>19 Feb 2026</td>
+                    <td>Health and Social Care Committee</td>
+                    <td>Government accepts many conclusions of Independent Expert Panel’s report on palliative care services in England</td>
+                    <td>15</td>
+                    <td>245</td>
+                    <td>24.77</td>
+                </tr>
+                <tr>
+                    <td>13 Feb 2026</td>
+                    <td>Women and Equalities Committee</td>
+                    <td>WEC writes to Cabinet Ministers calling for stronger protections to tackle misogyny in music</td>
+                    <td>14</td>
+                    <td>466</td>
+                    <td>17.06</td>
+                </tr>
+                <tr>
+                    <td>13 Feb 2026</td>
+                    <td>Education Committee</td>
+                    <td>Committees to examine children and young people’s mental health in new inquiry</td>
+                    <td>12</td>
+                    <td>661</td>
+                    <td>14.63</td>
+                </tr>
+                <tr>
+                    <td>13 Feb 2026</td>
+                    <td>Health and Social Care Committee</td>
+                    <td>Committees to examine children and young people’s mental health in new inquiry</td>
+                    <td>12</td>
+                    <td>661</td>
+                    <td>14.63</td>
                 </tr>
             </tbody>
         </table>
@@ -257,7 +316,7 @@
         <a href="committee_news.csv" class="download-link">📥 Download Full CSV Data</a>
 
         <div class="footer">
-            <p>Last updated: 2026-03-19 13:51</p>
+            <p>Last updated: 2026-03-20 10:37</p>
         </div>
     </body>
     </html>

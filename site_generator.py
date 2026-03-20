@@ -10,8 +10,11 @@ def generate_index_html(csv_path, output_dir='docs'):
     df = pd.read_csv(csv_path)
     df['Date Published'] = pd.to_datetime(df['Date Published'])
     
-    # Sort by date (newest first) and take the top 30
-    recent_df = df.sort_values(by='Date Published', ascending=False).head(30)
+    # 1. Filter: Keep only rows where 'Heading Word Count' is greater than 10
+    filtered_df = df[df['Heading Word Count'] > 10]
+
+    # 2. Sort & Slice: Get the 30 most recent from that filtered set
+    recent_df = filtered_df.sort_values(by='Date Published', ascending=False).head(30)  
     
     # Format the date for the table display
     recent_df['Date Published'] = recent_df['Date Published'].dt.strftime('%d %b %Y')
@@ -36,6 +39,26 @@ def generate_index_html(csv_path, output_dir='docs'):
             .download-link {{ display: inline-block; margin-top: 20px; padding: 10px 15px; background: #2ea44f; color: white; text-decoration: none; border-radius: 6px; font-weight: bold; }}
             .download-link:hover {{ background: #2c974b; }}
             .footer {{ margin-top: 50px; font-size: 0.8em; color: #57606a; }}
+            .modal {{
+            display: none; 
+            position: fixed; 
+            z-index: 1000; 
+            left: 0; top: 0;
+            width: 100%; height: 100%;
+            background-color: rgba(0,0,0,0.8); /* Black w/ opacity */
+            }}
+            .modal-content {{
+            margin: auto;
+            display: block;
+            max-width: 90%;
+            max-height: 90vh;
+            margin-top: 5vh;
+            }}
+            .close {{
+            position: absolute;
+            top: 20px; right: 35px;
+            color: white; font-size: 40px; font-weight: bold; cursor: pointer;
+            }}
         </style>
     </head>
     <body>
@@ -43,7 +66,15 @@ def generate_index_html(csv_path, output_dir='docs'):
         
         <h2>Visual Trends</h2>
         <div class="visuals">
-            <img src="monthly_trend.svg" alt="Monthly Trend">
+
+            <img src="monthly_trend.svg" onclick="document.getElementById('myModal').style.display='block'" style="cursor:zoom-in; width:100%; max-width:600px;">
+
+            <div id="myModal" class="modal">
+            <span class="close" onclick="document.getElementById('myModal').style.display='none'">&times;</span>
+            <img class="modal-content" src="graph.png">
+            </div>
+
+            #<img src="monthly_trend.svg" alt="Monthly Trend">
             <img src="committee_avg.svg" alt="Committee Averages">
         </div>
 
@@ -54,8 +85,9 @@ def generate_index_html(csv_path, output_dir='docs'):
                     <th>Date</th>
                     <th>Committee</th>
                     <th>Heading</th>
-                    <th>Words</th>
-                    <th>Score</th>
+                    <th>Heading word count</th>
+                    <th>Article word count</th>
+                    <th>Readability score</th>
                 </tr>
             </thead>
             <tbody>
@@ -68,6 +100,7 @@ def generate_index_html(csv_path, output_dir='docs'):
                     <td>{row['Date Published']}</td>
                     <td>{row['Committee Name']}</td>
                     <td>{row['Heading']}</td>
+                    <td>{row['Heading Word Count']}</td>
                     <td>{row['Full Text Word Count']}</td>
                     <td>{row['Full Text Readability']}</td>
                 </tr>"""
